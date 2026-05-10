@@ -22,7 +22,6 @@ int main()
 
     scanf("%d",&number);
     while (number){
-
         int remainder = number %2;
         mul = power_(2,tawan);
         result += (remainder*mul);

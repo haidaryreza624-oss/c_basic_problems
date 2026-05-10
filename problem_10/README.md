@@ -1,3 +1,12 @@
+# Q10: Write a Program to Convert Binary to Decimal.
+
+## Problem Statement
+
+In this problem, you have to write a program to convert the given binary number entered by the user into an equivalent decimal number.
+
+## Solution
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -22,7 +31,6 @@ int main()
 
     scanf("%d",&number);
     while (number){
-
         int remainder = number %2;
         mul = power_(2,tawan);
         result += (remainder*mul);
@@ -32,3 +40,4 @@ int main()
     print_int(result);
     return 0;
 }
+```
