@@ -1,3 +1,12 @@
+# Q8: Write a Program to make a simple calculator.
+
+## Problem Statement
+
+In this problem, you have to write a program to make a simple calculator that accepts two operands and an operator to perform the calculation and prints the result.
+
+## Solution
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -17,8 +26,7 @@ int main()
     scanf("%d",&num[0]);
     printf("Enter Number 2: ");
     scanf("%d",&num[1]);
-    print_int(num[0]);
-    print_int(num[1]);
+
     if (operand == '+'){
         num[2] = num[0] + num[1];
     }else if (operand == '-'){
@@ -28,10 +36,11 @@ int main()
     }else if (operand == '*'){
         num[2] = num[0] * num[1];
     }
-    printf("%d",num[2]);
+    print_int(num[2]);
 
 
 
 
     return 0;
 }
+```

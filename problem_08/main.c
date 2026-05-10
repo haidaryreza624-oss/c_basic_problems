@@ -17,8 +17,7 @@ int main()
     scanf("%d",&num[0]);
     printf("Enter Number 2: ");
     scanf("%d",&num[1]);
-    print_int(num[0]);
-    print_int(num[1]);
+
     if (operand == '+'){
         num[2] = num[0] + num[1];
     }else if (operand == '-'){
@@ -28,7 +27,7 @@ int main()
     }else if (operand == '*'){
         num[2] = num[0] * num[1];
     }
-    printf("%d",num[2]);
+    print_int(num[2]);
 
 
 
