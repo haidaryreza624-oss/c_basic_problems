@@ -1,3 +1,12 @@
+# Q9: Write a Program to find the factorial of a given number.
+
+## Problem Statement
+
+In this problem, you have to write a program to calculate the factorial (product of all the natural numbers less than or equal to the given number n) of a number entered by the user.
+
+## Solution
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -25,3 +34,4 @@ int main()
 
     return 0;
 }
+```
