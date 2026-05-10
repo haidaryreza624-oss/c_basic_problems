@@ -1,3 +1,12 @@
+# Q7: Write a Program to find the largest number among three numbers.
+
+## Problem Statement
+
+In this problem, you have to write a program to take three numbers from the user as input and print the largest number among them.
+
+## Solution
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 int main()
@@ -19,3 +28,4 @@ int main()
     printf("%d",largest);
     return 0;
 }
+```
