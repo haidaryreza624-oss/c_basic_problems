@@ -6,9 +6,14 @@ In this problem, you have to write a program that adds two numbers and prints th
 
 ## Solution
 ```c
+#include <stdlib.h>
 #include <stdio.h>
+int main(){
+    int num1;
+    int num2;
+    printf("Enter Your Operands: ");
 
-int main() {
-    printf("Hello World!\n");
-    return 0;
+    scanf("%d %d",&num1,&num2);
+    printf("The Result is: %d",num1+num2);
+
 }
