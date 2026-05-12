@@ -1,17 +1,15 @@
+# Q13: Write a Program to find the maximum and minimum of an Array.
+
+## Problem Statement
+
+In this problem, you have to write a program to find the maximum and the minimum element of the array of size N given by the user.
+
+## Solution
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
-void print_int(int value){
-    printf("%d\n",value);
-}
-int  calc_sum(int number){
-
-    if (number == 0){
-        return 0;
-    }
-
-    return number + calc_sum(number-1);
-}
 int main()
 {
     int arr[] = {4, 7, 2, 1, 9};
@@ -30,3 +28,4 @@ int main()
 
 
 }
+```
