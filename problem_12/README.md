@@ -1,3 +1,12 @@
+# Q12: Write a Program to Calculate the Sum of Natural Numbers using recursion.
+
+## Problem Statement
+
+In this problem, you have to write a program to calculate the sum of natural numbers up to a given number n.
+
+## Solution
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -21,3 +30,4 @@ int main()
 
     return 0;
 }
+```
