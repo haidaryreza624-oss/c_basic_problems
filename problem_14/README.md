@@ -1,3 +1,12 @@
+# Q14: Write a Program to Reverse an Array.
+
+## Problem Statement
+
+In this problem, you have to write a program to reverse an array of size n entered by the user. Reversing an array means changing the order of elements so that the first element becomes the last element and the second element becomes the second last element and so on.
+
+## Solution
+
+```c
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -26,3 +35,4 @@ int main()
 
 
 }
+```
